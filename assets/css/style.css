@@ -1,0 +1,73 @@
+:root {
+    --aymara-rojo: #CB4154;
+    --aymara-naranja: #E87A3D;
+    --aymara-tierra: #8B4513;
+    --aymara-beige: #F5DEB3;
+    --aymara-azul: #1E4D6B;
+}
+
+body {
+    background-color: var(--aymara-beige);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-aymara {
+    background-color: var(--aymara-tierra);
+    border-bottom: 4px solid var(--aymara-naranja);
+}
+
+.container-aymara {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-blog {
+    color: var(--aymara-tierra);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid var(--aymara-naranja);
+    margin-bottom: 30px;
+}
+
+.card-aymara {
+    border: none;
+    border-left: 5px solid var(--aymara-naranja);
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+.card-aymara:hover {
+    transform: translateX(10px);
+}
+
+.btn-aymara-primary {
+    background-color: var(--aymara-azul);
+    color: white;
+    border: none;
+}
+
+.btn-aymara-primary:hover {
+    background-color: var(--aymara-tierra);
+    color: white;
+}
+
+.btn-aymara-warning {
+    background-color: var(--aymara-naranja);
+    color: white;
+    border: none;
+}
+
+.btn-aymara-danger {
+    background-color: var(--aymara-rojo);
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    border-color: var(--aymara-naranja);
+    box-shadow: 0 0 0 0.2rem rgba(232, 122, 61, 0.25);
+} 
